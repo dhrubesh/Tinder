@@ -2,4 +2,4 @@
     function(){
           var elem = document.getElementsByClassName("recsGamepad__button--like");
           elem[0].click()
-          },2500)
+          },2000)
