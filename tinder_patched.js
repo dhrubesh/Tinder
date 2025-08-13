@@ -1,3 +1,4 @@
+const SWIPE_INTERVAL = 2000; 
 var buttons = document.getElementsByTagName("button");
 var reactProps;
 for (key of Object.keys(buttons[0])) {
@@ -23,4 +24,4 @@ var button = () => {
 };
 setInterval(function () {
   button().click();
-}, 1000);
+}, SWIPE_INTERVAL);
